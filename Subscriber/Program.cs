@@ -233,16 +233,6 @@ namespace Subscriber
         /// <returns></returns>
         static bool IsValidEmail(string strIn)
         {
-            /*
-             * Тестовий не провірений кусок Regex
-             * 
-            string pattern =
-                     @"^([0-9a-zA-Z]" + //Start with a digit or alphabetical
-                     @"([\+\-_\.][0-9a-zA-Z]+)*" + // No continuous or ending +-_. chars in email
-                     @")+" +
-                     @"@(([0-9a-zA-Z][-\w]*[0-9a-zA-Z]*\.)+[a-zA-Z0-9]{2,17})$";
-            */
-
             return Regex.IsMatch(strIn, @"^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$");
         }
 
