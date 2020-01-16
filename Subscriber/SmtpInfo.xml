@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <!-- Список серверів для відправки листів -->
+
+  <!-- 1 -->
+  <smtpinfo>
+
+    <email></email>
+    <pass></pass>
+    
+    <server></server>
+    <port></port>
+ 
+  </smtpinfo>
+
+  <!-- 2 -->
+  <smtpinfo>
+
+    <email></email>
+    <pass></pass>
+
+    <server></server>
+    <port></port>
+
+  </smtpinfo>
+    
+</root>
